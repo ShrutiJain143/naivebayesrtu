@@ -46,7 +46,7 @@ def main():
    <div class="col-md-12">
    <center><p style="font-size:40px;color:white;margin-top:10px;">Poornima Institute of Engineering & Technology</p></center> 
    <center><p style="font-size:30px;color:white;margin-top:10px;">Department of Computer Engineering</p></center> 
-   <center><p style="font-size:25px;color:white;margin-top:10px;">Experiment Deployment By Sudhanshu Vijay</p></center> 
+   <center><p style="font-size:25px;color:white;margin-top:10px;">Experiment Deployment By Shruti Jain</p></center> 
    </div>
    </div>
    </div>
@@ -68,7 +68,7 @@ def main():
       result=predict_note_authentication(meanfreq, sd, median, IQR, skew, kurt, mode, centroid, dfrange)
       st.success('Model has predicted {}'.format(result))
     if st.button("About"):
-      st.subheader("Developed by Sudhanshu Vijay")
+      st.subheader("Developed by Shruti Jain")
       st.subheader("C-Section,PIET")
 
 if __name__=='__main__':
